@@ -23,9 +23,7 @@ function doHome() {
     <div class="error-page__container">
       <p class="error-page__code">{{ error.statusCode }}</p>
       <div class="error-page__message">{{ errorMessage }}</div>
-      <UiBaseButton color="white" @click="doHome"
-        >Главная страница</UiBaseButton
-      >
+      <UiBaseButton @click="doHome">Главная страница</UiBaseButton>
     </div>
   </div>
 </template>
