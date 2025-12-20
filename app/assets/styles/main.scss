@@ -1,0 +1,16 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --color-text-primary: #292929;
+  --color-bg-button: #191919;
+  --color-text-white: #fff;
+}
+
+body {
+  font-family: var(--font-family);
+}
+* {
+  font-family: var(--font-family);
+}
+p {
+  margin: 0;
+}
